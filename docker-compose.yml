@@ -1,0 +1,5 @@
+services:
+  collaborative_jupyterlab:
+    build: .
+    ports:
+      - "8443:8443"
